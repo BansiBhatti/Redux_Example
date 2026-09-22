@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router';
-import { MaterialUI } from './MaterialUI';
+import { AntdForm } from './antd';
 
 
 const routers = createBrowserRouter([
-  { path: "/", element: <MaterialUI /> },
+  { path: "/", element: <AntdForm /> },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
